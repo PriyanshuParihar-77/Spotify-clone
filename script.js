@@ -94,6 +94,12 @@ function playAll(songNumber){
             bannerHeading.textContent = "Jee Le Zara - (Cover)";
             bannerText.textContent = "By Priyanshu Parihar";
         }
+         else if (songNumber === 11){
+            banner.style.backgroundImage = "url(images/b011.png)";
+            bannerImage.setAttribute("src", "images/image 11.png");
+            bannerHeading.textContent = "In Dino- Pinchu Panda(Cover)";
+            bannerText.textContent = "By Priyanshu Parihar";
+        }
     }
 }
 
